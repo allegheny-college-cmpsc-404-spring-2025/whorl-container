@@ -48,7 +48,7 @@ RUN python -m pip install \
   python-dotenv --break-system-packages
 
 # Clone the client libraries and install at root level, system-wide
-RUN git clone -b endpoint_authentication https://github.com/hellowhorl/whorl-client
+RUN git clone -b endpoint_authentication https://github.com/allegheny-college-cmpsc-404-spring-2025/whorl-client
 
 RUN cd whorl-client && python -m pip install . --break-system-packages
 
